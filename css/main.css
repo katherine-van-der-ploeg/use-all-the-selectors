@@ -19,43 +19,45 @@ nav {
   background-color: #eee8d5;
 }
 
- #contents,
- #favs,
- #facts,
- #types{
-  color: #93a1a1
+#contents,
+#favs,
+#facts,
+#types {
+  color: #93a1a1;
 }
 
 .wrapper > .dfn {
-  background-color: #b58900
+  background-color: #b58900;
 }
 
 .dfn p + strong {
   color: #fff;
 }
 
-
+html body header nav ul li mark {
+  background-color: #719e07;
+}
 
 [rel="external"] {
-  background-color: #2694d8
+  background-color: #2694d8;
 }
 
 ol > li:first-child {
-  color: #719e47
+  color: #719e47;
 }
 
 ol > li:last-child {
-  color: #2aa198
+  color: #2aa198;
 }
 
-.types > li:first-child, li:nth-child(5), li:nth-child(7), li:nth-child(11), li:nth-child(13) {
-  background-color: #657ba3
+.types li:nth-child(odd) {
+  background-color: #657ba3;
 }
 
-.types > li:nth-child(2), li:nth-child(4), li:nth-child(8), li:nth-child(10), li:last-child {
-  background-color: #586e75
+.types > li:nth-child(even) {
+  background-color: #586e75;
 }
 
-.types > li:nth-child(3), li:nth-child(6), li:nth-child(9), li:nth-child(12) {
-  background-color: #d04b16
+.types > li:nth-child(3n) {
+  background-color: #d04b16;
 }
