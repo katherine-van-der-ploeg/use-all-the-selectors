@@ -55,3 +55,7 @@ ol > li:last-child {
 .types > li:nth-child(2), li:nth-child(4), li:nth-child(8), li:nth-child(10), li:last-child {
   background-color: #586e75
 }
+
+.types > li:nth-child(3), li:nth-child(6), li:nth-child(9), li:nth-child(12) {
+  background-color: #d04b16
+}
